@@ -1,6 +1,6 @@
 ---
 - name: install/configure conjur on fresh server
-  hosts: rhel_hosts
+  hosts: all
   gather_facts: false
   vars:
     # location on remote server to save conjur git repo and files
